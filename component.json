@@ -1,0 +1,33 @@
+{
+  "name": "apptest",
+  "repo": "https://github.com/ahsyuyu/apptest.git",
+  "description": "hello world",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "ksanaforge/boot": "*",
+    "brighthas/bootstrap": "*",
+    "ksana/document": "*",
+    "ksanaforge/fileinstaller": "*",
+    "ksanaforge/checkbrowser": "*",
+    "ksanaforge/htmlfs": "*",
+    "apptest/main": "*",
+    "apptest/comp1": "*"
+  },
+  "development": {},
+  "paths": [
+    "components",
+    "../components",
+    "../../components",
+    "../node_modules/",
+    "../../node_modules/"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "index.css"
+  ]
+}
